@@ -1,4 +1,3 @@
-# .github/workflows/run-dbt-prod.yml
 name: run_dbt_prod
 
 on:

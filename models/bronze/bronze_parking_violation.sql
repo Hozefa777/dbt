@@ -1,0 +1,22 @@
+select
+    `Summons number` as summons_number,
+    `Registration State` as registration_state,
+    `Plate Type` as plate_type,
+    `Issue date` as issue_date,
+    `Violation code` as violation_code,
+    `Vehicle Body Type` as vehicle_body_type,
+    `Vehicle Make` as vehicle_make,
+    `Issuing Agency` as issuing_agency,
+    `Vehicle Expiration Date` as vehicle_expiration_date,
+    `Violation Location` as violation_location,
+    `Violation Precinct` as violation_precinct,
+    `Issuer Precinct` as issuer_precinct,
+    `Issuer Code` as issuer_code,
+    `Issuer Command` as issuer_command,
+    `Issuer Squad` as issuer_squad,
+    `Violation Time` as violation_time,
+    `Violation County` as violation_county,
+    `Violation Legal Code` as violation_legal_code,
+    `Vehicle Color` as vehicle_color,
+    `Vehicle Year` as vehicle_year
+from `transformed-data-455317.dbt_hajmerwala.parking_violation_2023`
